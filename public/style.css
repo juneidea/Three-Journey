@@ -1,0 +1,224 @@
+body { 
+  margin: 0; 
+  background-color: black;
+}
+
+canvas { 
+  width: 640px; height: 360px 
+}
+
+.video-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.head{
+  position: fixed;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  width: 200px;
+  height: 100vh;
+}
+
+.outline {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: rgb(200, 200, 200);
+}
+
+.head a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+
+}
+
+.head p {
+  padding-top: 15px;
+  color: rgb(200, 200, 200);
+}
+
+.story-outline {
+  position: relative;
+  display: block;
+  left: 50%;
+}
+
+.blank {
+  position: relative;
+  display: block;
+  height: 230px;
+  color: white;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+#story1 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -70px;
+  height: 350px;
+}
+
+#story1 p {
+  font-size: 20px;
+  margin-left: -250px;
+  width: 600px;
+  line-height: 30px;
+  text-align: center;
+  background-color: rgb(150, 150, 150, 0.5);
+  padding: 10px;
+}
+
+#story2 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -100px;
+  height: 100px;
+}
+
+#story3 {
+  position: relative;
+  display: block;
+  margin-left: -350px;
+  opacity: 0.7;
+}
+
+#story3 img {
+  width: 800px;
+}
+
+#story4 {
+  position: relative;
+  display: block;
+  margin-left: -270px;
+  height: 800px;
+  opacity: 0.7;
+}
+
+#story5 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -70px;
+  height: 350px;
+}
+
+#story6 {
+  position: relative;
+  display: block;
+  margin-left: -170px;
+  height: 200px;
+  opacity: 0.8;
+}
+
+#story7 {
+  position: relative;
+  display: block;
+  margin-left: -370px;
+  height: 600px;
+  opacity: 1;
+}
+
+#story7 video {
+  width: 800px;
+}
+
+#story8 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -70px;
+  height: 100px;
+}
+
+#story9 {
+  position: relative;
+  display: block;
+  margin-left: -300px;
+  height: 600px;
+  opacity: 0.8;
+}
+
+#story9 img {
+  width: 600px;
+}
+
+#story10 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -10px;
+  height: 150px;
+}
+
+#story11 {
+  position: relative;
+  display: block;
+  margin-left: -300px;
+  height: 600px;
+  opacity: 0.8;
+}
+
+#story11 img {
+  width: 600px;
+}
+
+#story12 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -150px;
+  height: 120px;
+}
+
+#story13 {
+  position: relative;
+  display: block;
+  margin-left: -390px;
+  height: 350px;
+  opacity: 0.9;
+}
+
+#story13 img {
+  width: 800px;
+}
+
+#story14 {
+  position: relative;
+  display: block;
+  margin-left: -390px;
+  height: 600px;
+  opacity: 0.8;
+}
+
+#story14 img {
+  width: 800px;
+}
+
+#story15 {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 40px;
+  margin-left: -50px;
+  height: 600px;
+}
